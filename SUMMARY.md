@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Basics](BASICS.md)
-    * [Signing up](signing_up.md) 
+    * [Signing up](signing_up) 
 * [API](api/index.md)
   
 
