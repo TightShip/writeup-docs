@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* Mobile apps
+* [Mobile apps](mobile_apps.md)
 
