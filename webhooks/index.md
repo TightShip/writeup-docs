@@ -29,8 +29,8 @@ You can add special placeholders in your response message. The system will repla
 
 | Name | Description |
 | -- | -- |
-| {{recipient.username}}  | Recipient account username |
-| {{recipient.displayname}}  | Recipient account name |
+| \{\{recipient.username\}\}  | Recipient account username |
+| \{\{recipient.displayname\}\}  | Recipient account name |
 
 ### Limitations
 We check all Webhook messages for uniqueness before they're sent to the recipient. The user will not receive the same message more than once per day.
