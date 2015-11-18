@@ -1,10 +1,10 @@
 # iOS Changelog
 
-1.0.0
+1.0.0 - Released 6 Aug 2015
 
 Initial release
 
-1.2.2 (not released yet)
+1.2.2 - Released 18 Nov 2015
 
 - Fixed UI bugs for profile edit on iPhone 5s. Added some auto-layout constraints.
 - Fixed UI bugs for signup confirm page. Added some auto-layout constraints.
