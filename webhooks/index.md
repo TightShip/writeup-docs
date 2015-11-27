@@ -20,7 +20,7 @@ The Webhook must return valid JSON. Max response time is 5000ms.
 ```
 {   
     message: {
-        text: "Hello {{account.username}}, This is your lucky day!"
+        text: "Hello {{recipient.username}}, This is beacon {{beacon.name}}"
     }
 }
 ```
@@ -30,7 +30,7 @@ You can add special placeholders in your response message. The system will repla
 | Name | Description |
 | -- | -- |
 | \{\{recipient.username\}\}  | Recipient account username |
-| \{\{recipient.displayname\}\}  | Recipient account name |
+| \{\{beacon.name\}\}  | Beacon name |
 
 ### Limitations
 We check all Webhook messages for uniqueness before they're sent to the recipient. The user will not receive the same message more than once per day.
