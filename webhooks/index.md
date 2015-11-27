@@ -3,7 +3,7 @@
 Webhooks enable you to send messages via Writeup from a third party server, as long as it accepts http. 
 
 ### Request
-Your Webhook must accept POST requests over HTTP. 
+Your Webhook must accept GET and POST requests over HTTP. 
 
 ### Request parameters
 These parameters are always sent in the request to your Webhook:
