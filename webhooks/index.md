@@ -10,7 +10,7 @@ These parameters are always sent in the request to your Webhook:
 
 | Name | Description |
 | -- | -- |
-| beacon_id  | Numerical beacon identifier |
+| beacon_id  | Id of beacon |
 | account_id  | Id of recipient |
 
 ### Response
