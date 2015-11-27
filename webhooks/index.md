@@ -11,7 +11,7 @@ These parameters are always sent in the request to your Webhook:
 | Name | Description |
 | -- | -- |
 | beacon_id  | Numerical beacon identifier |
-| account_id  | Numerical account identifier |
+| account_id  | Id of recipient |
 
 ### Response
 
@@ -20,7 +20,7 @@ The Webhook must return valid JSON. Max response time is 5000ms.
 ```
 {   
     message: {
-        text: "Hello {{recipient.username}}, This is beacon {{beacon.name}}"
+        text: "Hello {{recipient.name}}, This is beacon {{beacon.name}}"
     }
 }
 ```
@@ -30,6 +30,7 @@ You can add special placeholders in your response message. The system will repla
 | Name | Description |
 | -- | -- |
 | \{\{recipient.username\}\}  | Recipient account username |
+| \{\{recipient.name\}\}  | Recipient account name |
 | \{\{beacon.name\}\}  | Beacon name |
 
 ### Limitations
