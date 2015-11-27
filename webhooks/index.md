@@ -15,7 +15,7 @@ These parameters are always sent in the request to your Webhook:
 
 ### Response
 
-The Webhook must return valid JSON, like this:
+The Webhook must return valid JSON. Max response time is 5000ms.
 
 ```
 {   
