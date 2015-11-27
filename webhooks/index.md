@@ -24,8 +24,8 @@ The Webhook must return valid JSON. Max response time is 5000ms.
     }
 }
 ```
-### Responce placeholders
-You can add special placeholders in your response message. The system will replace them into their real values.
+### Response placeholders
+You can use variable placeholders in your response message. The system will replace them into their real values.
 
 | Name | Description |
 | -- | -- |
