@@ -20,3 +20,7 @@ Initial release
 - Users can now block other users, and report offensive messages and users.
 - Proximity push notifications now include the username of the sender.
 
+1.3.x (Not released yet)
+
+- Upgraded Swift version from 1.2 to 2.1
+- Enabled template variables in return message from webhooks.
