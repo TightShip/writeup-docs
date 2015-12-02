@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Using Writeup](using_writeup/index.md)
+   * Sending messages
 * [Webhooks](webhooks/index.md)
 * [Mobile apps](mobile_apps/index.md)
    * [iOS](mobile_apps/ios/index.md)
