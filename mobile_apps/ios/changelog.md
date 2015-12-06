@@ -22,5 +22,6 @@ Initial release
 
 1.3.x (Not released yet)
 
-- Upgraded Swift version from 1.2 to 2.1
-- Enabled template variables in return message from webhooks.
+- Upgraded Swift version from 1.2 to 2.1 -> Faster development environment.
+- Enabled template variables in return message from webhooks -> Webhooks can now be personalized.
+- Images in messages can be zoomed, panned and displayed in full screen with aspect ratio intact -> Recipients can now see the whole picture.
